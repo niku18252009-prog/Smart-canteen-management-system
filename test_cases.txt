@@ -1,0 +1,31 @@
+TEST CASES
+
+1. Normal order
+Input: Samosa x 2, Burger x 1
+Expected: Correct item amounts and total are displayed.
+Result: Pass
+
+2. Multiple items
+Input: Sandwich x 1, Pizza x 2, Tea x 2
+Expected: All items appear in the bill.
+Result: Pass
+
+3. Invalid item
+Input: Item number 10
+Expected: "Please enter a valid item number."
+Result: Pass
+
+4. Invalid quantity
+Input: Quantity 0
+Expected: "Quantity should be greater than 0."
+Result: Pass
+
+5. No order
+Input: 0 at the first menu
+Expected: "No items were ordered."
+Result: Pass
+
+6. Discount
+Input: Total above Rs. 500
+Expected: 10% discount is applied.
+Result: Pass

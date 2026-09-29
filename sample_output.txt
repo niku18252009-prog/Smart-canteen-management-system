@@ -1,0 +1,39 @@
+SAMPLE OUTPUT
+
+==========================================
+ SMART COLLEGE CANTEEN
+ MANAGEMENT AND BILLING SYSTEM
+==========================================
+Enter customer name: Rahul
+
+----------- CANTEEN MENU -----------
+1 . Samosa - Rs. 15
+2 . Sandwich - Rs. 40
+3 . Burger - Rs. 60
+4 . Pizza - Rs. 100
+5 . Cold Drink - Rs. 40
+6 . Tea - Rs. 15
+------------------------------------
+Enter item number (0 to finish): 3
+Enter quantity: 2
+Item added to order.
+
+Enter item number (0 to finish): 1
+Enter quantity: 2
+Item added to order.
+
+Enter item number (0 to finish): 0
+
+Customer: Rahul
+
+-------------- BILL --------------
+Item            Qty     Amount
+----------------------------------
+Burger          2       Rs. 120
+Samosa          2       Rs. 30
+----------------------------------
+Total: Rs. 150
+Discount: Rs. 0
+Final Amount: Rs. 150
+----------------------------------
+Thank you for visiting the canteen!
